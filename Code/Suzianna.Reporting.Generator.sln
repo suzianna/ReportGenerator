@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suzianna.Reporting.Generator", "src\Suzianna.Reporting.Generator\Suzianna.Reporting.Generator.csproj", "{A51D6DE0-1777-4FA2-A1E6-9E60B92970C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{293D9A60-AF90-4A87-9037-22D99EEBAF70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7C34A1E3-09D9-4C58-AD41-A494F7C4F9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suzianna.Reporting.Generator.Tests", "test\Suzianna.Reporting.Generator.Tests\Suzianna.Reporting.Generator.Tests.csproj", "{860DF5E2-4A7C-4100-B7AF-9680CDEA2370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51D6DE0-1777-4FA2-A1E6-9E60B92970C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51D6DE0-1777-4FA2-A1E6-9E60B92970C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51D6DE0-1777-4FA2-A1E6-9E60B92970C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51D6DE0-1777-4FA2-A1E6-9E60B92970C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860DF5E2-4A7C-4100-B7AF-9680CDEA2370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860DF5E2-4A7C-4100-B7AF-9680CDEA2370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860DF5E2-4A7C-4100-B7AF-9680CDEA2370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860DF5E2-4A7C-4100-B7AF-9680CDEA2370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A51D6DE0-1777-4FA2-A1E6-9E60B92970C5} = {293D9A60-AF90-4A87-9037-22D99EEBAF70}
+		{860DF5E2-4A7C-4100-B7AF-9680CDEA2370} = {7C34A1E3-09D9-4C58-AD41-A494F7C4F9AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38DECB74-1DF5-40A8-A282-9D318EE53390}
+	EndGlobalSection
+EndGlobal
